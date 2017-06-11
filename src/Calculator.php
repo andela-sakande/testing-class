@@ -26,17 +26,21 @@ class Calculator
     }
 
     /**
-     * @return mixed
+     * Perform addition operation of properties
+     *
+     * @return int
      */
-    public function add()
+    public function add(): int
     {
         return $this->first + $this->second;
     }
 
     /**
+     * Perform subtraction operation of properties
+     *
      * @return int
      */
-    public function minus()
+    public function minus(): int
     {
         return $this->first - $this->second;
     }
