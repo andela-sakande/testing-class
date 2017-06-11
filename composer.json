@@ -1,0 +1,23 @@
+{
+    "name": "sirolad/testing",
+    "authors": [{
+        "name": "Surajudeen Akande",
+        "email": "surajudeen.akande@fire-engine-red.com"
+    }],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sirolad\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sirolad\\Test\\": "tests/"
+        },
+        "classmap": ["tests/"]
+    }
+}
